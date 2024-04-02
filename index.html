@@ -7,13 +7,24 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-gradient-to-r">
+<body class="bg-gradient-to-r from-purple-400 to-blue-600">
+<!-- Configurando o background com um linear-gradient da esquerda para a direita (bg-gradient-to-r)
+     e definindo as cores de início (from-purple-400) e fim (to-blue-600). -->
 
-    <main class="">
-        <img class="" src="./image/logo-tailwind.png" alt="Logo Tailwind CSS">
-        <h1 class="">Olá Tailwind CSS!</h1>
-        <img class="" src="./image/logo-tailwind.png" alt="Logo Tailwind CSS">
+     <main class="bg-white flex flex-col lg:flex-row justify-center items-center w-4/5 mx-auto my-40 p-12 shadow-2xl opacity-50">
+       <!-- Define cor de fundo (bg-white), exibe em coluna/linha (flex flex-col lg:flex-row), alinha e justifica ao centro (justify-center items-center), largura como 80% do contêiner pai (w-4/5), centraliza horizontalmente (mx-auto), define margem superior de 40 unidades (my-40), preenche com 12 unidades internamente (p-12), aplica sombra de tamanho 2xl (shadow-2xl), reduz opacidade para 50% (opacity-50) -->
+
+        <img class="w-2/5 lg:w-1/5" src="./image/logo-tailwind.png" alt="Logo Tailwind CSS">
+        <!-- Configurando a largura da imagem como 40% do contêiner pai em dispositivos pequenos
+             e 20% em dispositivos grandes (w-2/5 lg:w-1/5). -->
+
+        <h1 class="text-4xl lg:text-6xl font-black text-center">Olá Tailwind CSS!</h1>
+        <!-- Configurando o tamanho do texto como 4xl em dispositivos pequenos
+             e 6xl em dispositivos grandes, usando uma fonte em negrito (font-black) e centralizando o texto (text-center). -->
+
+        <img class="w-2/5 lg:w-1/5" src="./image/logo-tailwind.png" alt="Logo Tailwind CSS">
+        <!-- Configurando a largura da imagem como 40% do contêiner pai em dispositivos pequenos
+             e 20% em dispositivos grandes (w-2/5 lg:w-1/5). -->
     </main>
-
 </body>
 </html>
