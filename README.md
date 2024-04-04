@@ -1,6 +1,6 @@
 <div align="center">
-    <h1 style="color: #38B2AC; font-size: 36px;"> Projeto de Estilização com Tailwind CSS </h1>
     <img src="https://github.com/devicons/devicon/blob/master/icons/tailwindcss/tailwindcss-original-wordmark.svg" alt="Tailwind CSS Logo" width="200px" />
+    <h1 style="color: #38B2AC; font-size: 36px;"> Projeto de Estilização com Tailwind CSS </h1>
 </div>
 
 ## ℹ️ **Sobre o Projeto**
